@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27CAD50F1C42B816009D774F /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CAD50E1C42B816009D774F /* WeatherViewController.swift */; };
+		27CD22C71C275F9C0076C17D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD22C61C275F9C0076C17D /* AppDelegate.swift */; };
+		27CD22C91C275F9C0076C17D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD22C81C275F9C0076C17D /* ViewController.swift */; };
+		27CD22CC1C275F9C0076C17D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CD22CA1C275F9C0076C17D /* Main.storyboard */; };
+		27CD22CE1C275F9C0076C17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CD22CD1C275F9C0076C17D /* Assets.xcassets */; };
+		27CD22D11C275F9C0076C17D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CD22CF1C275F9C0076C17D /* LaunchScreen.storyboard */; };
+		27CD22D91C2762860076C17D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CD22D81C2762860076C17D /* MapKit.framework */; };
+		27CD22DC1C276E110076C17D /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD22DB1C276E110076C17D /* Weather.swift */; };
+		BA7AFA121C3FED0F00851C9D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7AFA111C3FED0F00851C9D /* Extensions.swift */; };
+		D74C69949675AD9CEADDB41D /* Pods_PedalToPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564EC330F9FE7F454DC6B38C /* Pods_PedalToPro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27CAD50E1C42B816009D774F /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		27CD22C31C275F9C0076C17D /* PedalToPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PedalToPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CD22C61C275F9C0076C17D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27CD22C81C275F9C0076C17D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27CD22CB1C275F9C0076C17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27CD22CD1C275F9C0076C17D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27CD22D01C275F9C0076C17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27CD22D21C275F9C0076C17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27CD22D81C2762860076C17D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		27CD22DA1C2765650076C17D /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		27CD22DB1C276E110076C17D /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		47D2C8331A479392612515C8 /* Pods-PedalToPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalToPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-PedalToPro/Pods-PedalToPro.release.xcconfig"; sourceTree = "<group>"; };
+		564EC330F9FE7F454DC6B38C /* Pods_PedalToPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PedalToPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7AFA111C3FED0F00851C9D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FC40B77C12B1F5DF8B1D4006 /* Pods-PedalToPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalToPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PedalToPro/Pods-PedalToPro.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27CD22C01C275F9C0076C17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CD22D91C2762860076C17D /* MapKit.framework in Frameworks */,
+				D74C69949675AD9CEADDB41D /* Pods_PedalToPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12505167042F9F474986B23B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27CD22D81C2762860076C17D /* MapKit.framework */,
+				564EC330F9FE7F454DC6B38C /* Pods_PedalToPro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27CD22BA1C275F9C0076C17D = {
+			isa = PBXGroup;
+			children = (
+				27CD22C51C275F9C0076C17D /* PedalToPro */,
+				27CD22C41C275F9C0076C17D /* Products */,
+				F649C09062E9D282BE75FBAE /* Pods */,
+				12505167042F9F474986B23B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27CD22C41C275F9C0076C17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27CD22C31C275F9C0076C17D /* PedalToPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27CD22C51C275F9C0076C17D /* PedalToPro */ = {
+			isa = PBXGroup;
+			children = (
+				27CD22C61C275F9C0076C17D /* AppDelegate.swift */,
+				27CD22C81C275F9C0076C17D /* ViewController.swift */,
+				27CAD50E1C42B816009D774F /* WeatherViewController.swift */,
+				BA7AFA111C3FED0F00851C9D /* Extensions.swift */,
+				27CD22DA1C2765650076C17D /* Location.gpx */,
+				27CD22DB1C276E110076C17D /* Weather.swift */,
+				27CD22CA1C275F9C0076C17D /* Main.storyboard */,
+				27CD22CD1C275F9C0076C17D /* Assets.xcassets */,
+				27CD22CF1C275F9C0076C17D /* LaunchScreen.storyboard */,
+				27CD22D21C275F9C0076C17D /* Info.plist */,
+			);
+			path = PedalToPro;
+			sourceTree = "<group>";
+		};
+		F649C09062E9D282BE75FBAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC40B77C12B1F5DF8B1D4006 /* Pods-PedalToPro.debug.xcconfig */,
+				47D2C8331A479392612515C8 /* Pods-PedalToPro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27CD22C21C275F9C0076C17D /* PedalToPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CD22D51C275F9C0076C17D /* Build configuration list for PBXNativeTarget "PedalToPro" */;
+			buildPhases = (
+				E06B30E3C6896231979E011F /* Check Pods Manifest.lock */,
+				27CD22BF1C275F9C0076C17D /* Sources */,
+				27CD22C01C275F9C0076C17D /* Frameworks */,
+				27CD22C11C275F9C0076C17D /* Resources */,
+				38C5E53EAE0AEA49BCBE8E7D /* Embed Pods Frameworks */,
+				0EFAC2F0DA1703F25929831F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PedalToPro;
+			productName = PedalToPro;
+			productReference = 27CD22C31C275F9C0076C17D /* PedalToPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27CD22BB1C275F9C0076C17D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kyle Goslan";
+				TargetAttributes = {
+					27CD22C21C275F9C0076C17D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = YGKX7P2G9Y;
+					};
+				};
+			};
+			buildConfigurationList = 27CD22BE1C275F9C0076C17D /* Build configuration list for PBXProject "PedalToPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27CD22BA1C275F9C0076C17D;
+			productRefGroup = 27CD22C41C275F9C0076C17D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27CD22C21C275F9C0076C17D /* PedalToPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27CD22C11C275F9C0076C17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CD22D11C275F9C0076C17D /* LaunchScreen.storyboard in Resources */,
+				27CD22CE1C275F9C0076C17D /* Assets.xcassets in Resources */,
+				27CD22CC1C275F9C0076C17D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EFAC2F0DA1703F25929831F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PedalToPro/Pods-PedalToPro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38C5E53EAE0AEA49BCBE8E7D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PedalToPro/Pods-PedalToPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E06B30E3C6896231979E011F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27CD22BF1C275F9C0076C17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CD22C91C275F9C0076C17D /* ViewController.swift in Sources */,
+				27CAD50F1C42B816009D774F /* WeatherViewController.swift in Sources */,
+				27CD22DC1C276E110076C17D /* Weather.swift in Sources */,
+				27CD22C71C275F9C0076C17D /* AppDelegate.swift in Sources */,
+				BA7AFA121C3FED0F00851C9D /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27CD22CA1C275F9C0076C17D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27CD22CB1C275F9C0076C17D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27CD22CF1C275F9C0076C17D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27CD22D01C275F9C0076C17D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27CD22D31C275F9C0076C17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27CD22D41C275F9C0076C17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27CD22D61C275F9C0076C17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC40B77C12B1F5DF8B1D4006 /* Pods-PedalToPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PedalToPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylegoslan.PedalToPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27CD22D71C275F9C0076C17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D2C8331A479392612515C8 /* Pods-PedalToPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PedalToPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylegoslan.PedalToPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27CD22BE1C275F9C0076C17D /* Build configuration list for PBXProject "PedalToPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CD22D31C275F9C0076C17D /* Debug */,
+				27CD22D41C275F9C0076C17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27CD22D51C275F9C0076C17D /* Build configuration list for PBXNativeTarget "PedalToPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CD22D61C275F9C0076C17D /* Debug */,
+				27CD22D71C275F9C0076C17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27CD22BB1C275F9C0076C17D /* Project object */;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    
+    <wpt lat="50.719799" lon="-1.879439">
+        <name>Gardens</name>
+        <time>2014-09-24T14:55:30Z</time>
+    </wpt>
+    
+    <wpt lat="50.716098" lon="-1.875780">
+        <name>Bournemouth Pier</name>
+        <time>2014-09-24T14:55:32Z</time>
+    </wpt>
+    
+    <wpt lat="50.735218" lon="-1.778761">
+        <name>Christchurch</name>
+        <time>2014-09-24T14:55:36Z</time>
+    </wpt>
+    
+    <wpt lat="50.815412" lon="-1.575826">
+        <name>Brock</name>
+        <time>2014-09-24T14:55:38Z</time>
+    </wpt>
+    
+    <wpt lat="50.842360" lon="-1.785079">
+        <name>Ringwood</name>
+        <time>2014-09-24T14:55:40Z</time>
+    </wpt>
+    <wpt lat="50.805935" lon="-1.898478">
+        <name>Ferndown</name>
+        <time>2014-09-24T14:55:42Z</time>
+    </wpt>
+    <wpt lat="50.716098" lon="-1.875780">
+        <name> Gardens </name>
+        <time>2014-09-24T14:55:44Z</time>
+    </wpt>
+   
+</gpx>
